@@ -1,20 +1,11 @@
 #include <stdlib.h>
-
 #include <time.h>
-
 #include <stdio.h>
 
-
-
 /**
- *
  *  *main - Task 1 print the last digit of the number stored in the variable n
- *
- *   *
- *
- *    *Return: 0
- *
- *     **/
+ *  *Return: 0
+*/
 
 int main(void)
 
