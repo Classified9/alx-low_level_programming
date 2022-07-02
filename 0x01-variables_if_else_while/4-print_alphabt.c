@@ -3,23 +3,28 @@
 
 /**
  *
- * * main - print all letters of the alphabeth in lower case
+ *   * main - returns a void
  *
- * * Return: 0 if successful
+ *     * @alpha: lowercase alphabet
  *
- * */
-
+ *       *
+ *
+ *         * Return: return value
+ *
+ */
 int main(void)
 
 {
-	char var;
+	char alpha;
 	
-	for (var = 'a'; var <= 'z'; var++)
+	for (alpha = 'a'; alpha <= 'z'; alpha++)
 	{
-	if (var == 'e' || var == 'q')
+	if (alpha == 'e' || alpha == 'q')
 		continue;
-	putchar(var);
+
+	putchar(alpha);
 	}
+
 	putchar('\n');
 	return (0);
 }
