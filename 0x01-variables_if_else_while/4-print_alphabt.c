@@ -2,16 +2,12 @@
 #include <stdlib.h>
 
 /**
- *
- *   * main - returns a void
- *
- *     * @alpha: lowercase alphabet
- *
- *       *
- *
- *         * Return: return value
- *
- */
+  * main - describe what the function does here
+  * @variable_name: variable description
+  *
+  * Return: return value
+  */
+
 int main(void)
 
 {
