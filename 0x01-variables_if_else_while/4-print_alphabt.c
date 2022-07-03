@@ -2,25 +2,20 @@
 #include <stdlib.h>
 
 /**
-  * main - describe what the function does here
-  * @variable_name: variable description
-  *
-  * Return: return value
-  */
-
+* main - print all letters of the alphabeth in lower case
+* Return: 0 if successful
+*/
 int main(void)
-
 {
-	char alpha;
-	
-	for (alpha = 'a'; alpha <= 'z'; alpha++)
+	char var;
+
+	for (var = 'a'; var <= 'z'; var++)
 	{
-	if (alpha == 'e' || alpha == 'q')
+	if (var == 'e' || var == 'q')
 		continue;
 
-	putchar(alpha);
+	putchar(var);
 	}
-
 	putchar('\n');
 	return (0);
 }
