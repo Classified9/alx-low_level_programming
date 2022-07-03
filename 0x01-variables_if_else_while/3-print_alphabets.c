@@ -1,14 +1,23 @@
 #include <stdio.h>
+#include <stdlib.h>
 
-int main(void) /*Returns: 0 if error*/
+/**
+*main - print all letters of the alphabeth in lower case
+*Return: 0 if successful
+*/
+int main(void)
 {
-	char alpha1; /*First cap alphabet*/
-	char alpha2; /*Second cap alphabet*/
+	char var;
+	char var1;
 
-	for (alpha1 = 'a'; alpha1 <= 'z'; alpha1++)
-		putchar(alpha1);
-	for (alpha2 = 'A'; alpha2 <= 'Z'; alpha2++)
-		putchar(alpha2);
-	printf("\n");
+	for (var = 'a'; var <= 'z'; var++)
+	{
+	putchar(var);
+	}
+	for (var1 = 'A'; var1 <= 'Z'; var1++)
+	{
+	putchar(var1);
+	}
+	putchar('\n');
 	return (0);
 }
