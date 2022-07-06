@@ -4,7 +4,7 @@
  * _abs - Computes the absolute value of an integer
  * @n: integer to be checked
  *
- * Created - Jonah Jockthan
+ * Created by - Sherif
  * cc: 5th july, 2022
  *
  * Return: the absolute value

@@ -4,7 +4,8 @@
  * print_last_digit - print last digit
  * @var: variable whose last digit is to be printed
  *
- * Created - Jonah Jockthan
+ * Created - Sherif
+ *
  * cc: 5th july, 2022
  *
  * Return: the last digit
